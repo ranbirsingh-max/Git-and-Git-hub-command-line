@@ -1,0 +1,15 @@
+#Making directory
+step1.mkdir directory_name
+#Making File
+step2.touch file_name
+step3.git init
+step4.git add file_name or git add .
+#For checking status
+step5. git status
+step6.git commit -m "commet"
+step7. git log
+
+# Checking difference and restore old code 
+1. git diff file_name
+#Restore old code
+2.git checkout file_name
