@@ -1,0 +1,4 @@
+step1. git remote add <remote> <url>
+example-git remote add origin ranbirsingh-max
+step2.git branch -m main
+step3.git push -u origin main
