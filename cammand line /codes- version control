@@ -3,6 +3,9 @@ step1.mkdir directory_name
 #Making File
 step2.touch file_name
 step3.git init
+
+ADD=Moves changes from the working directory to the staging area. This gives you the opportunity to prepare a snapshot before committing it to the official history.
+
 step4.git add file_name or git add .
 #For checking status
 step5. git status
@@ -12,4 +15,6 @@ step7. git log
 # Checking difference and restore old code 
 1. git diff file_name
 #Restore old code
+Git checkout
+In addition to checking out old commits and old file revisions, git checkout is also the means to navigate existing branches. Combined with the basic Git commands, it’s a way to work on a particular line of development.
 2.git checkout file_name
