@@ -1,2 +1,21 @@
 #Cloning of git-repository
 step1.git clone url-of repository
+
+
+#Branching And Merging
+git branch name-of-branch
+
+
+#for status of branch
+git branch
+
+
+#For Switching branch One to Another
+step1.git checkout branch_name
+step2.add files after change in new branch and commit too.
+
+
+#For merging branch
+srep1.first go to main branch
+step2.git branch branch_name
+step3.git push -u <remote> <branch>
