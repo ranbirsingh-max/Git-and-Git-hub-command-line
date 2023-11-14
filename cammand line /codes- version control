@@ -1,13 +1,17 @@
 #Making directory
 step1.mkdir directory_name
+
+
 #Making File
 step2.touch file_name
-step3.git init
+step3.code file-name
+step4.git init
 
 ADD=Moves changes from the working directory to the staging area. This gives you the opportunity to prepare a snapshot before committing it to the official history.
-
 step4.git add file_name or git add .
 #For checking status
+
+
 step5. git status
 step6.git commit -m "commet"
 step7. git log
